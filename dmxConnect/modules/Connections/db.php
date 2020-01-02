@@ -8,7 +8,7 @@ $exports = <<<'JSON'
     "action": "connect",
     "options": {
         "server": "mysql",
-        "connectionString": "mysql:host=db;sslverify=false;port=3306;dbname=cmontreats.com;user=db_user;password=RHaMzRh5;charset=utf8"
+        "connectionString": "mysql:host=db;sslverify=false;port=3306;dbname=cmon_work_01;user=db_user;password=XqaNTCcJ;charset=utf8"
     }
 }
 JSON;

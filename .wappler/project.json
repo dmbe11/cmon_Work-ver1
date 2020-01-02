@@ -43,5 +43,6 @@
       "type": "sketchy"
     }
   ],
-  "activeTarget": "cmonWorkVer01"
+  "activeTarget": "cmonWorkVer01",
+  "projectServerModel": "PHP"
 }
