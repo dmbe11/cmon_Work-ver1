@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>New Customer</title>
+	<link rel="stylesheet" href="/fontawesome4/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="/bootstrap/4/sketchy/bootstrap.min.css">
+	<script src="/dmxAppConnect/dmxAppConnect.js"></script>
+	<script src="/js/jquery-3.3.1.slim.min.js"></script>
+	<link rel="stylesheet" href="/dmxFramework7_icons/css/framework7-icons.css">
+	<link rel="stylesheet" href="/dmxAppConnect/dmxNotifications/dmxNotifications.css">
+	<script src="/dmxAppConnect/dmxNotifications/dmxNotifications.js" defer=""></script>
+</head>
+
+<body is="dmx-app" id="stripe56">
+
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<form is="dmx-serverconnect-form" id="form1" method="post" action="dmxConnect/api/stripe/stripe.php" dmx-generator="bootstrap4" dmx-form-type="vertical" dmx-on:success="notifies1.success(form1.data.api1.data.id)">
+					<dmx-notifications id="notifies1"></dmx-notifications>
+					<div class="form-group">
+						<label for="inp_name">Name</label>
+						<input type="text" class="form-control" id="inp_name" name="name" aria-describedby="inp_name_help" placeholder="Enter Name">
+					</div>
+					<div class="form-group">
+						<label for="inp_email">Email</label>
+						<input type="text" class="form-control" id="inp_email" name="email" aria-describedby="inp_email_help" placeholder="Enter Email">
+					</div>
+					<div class="form-group">
+						<label for="inp_password">Password</label>
+						<input type="text" class="form-control" id="inp_password" name="password" aria-describedby="inp_password_help" placeholder="Enter Password">
+					</div>
+					<div class="form-group">
+						<button type="submit" class="btn btn-primary btn-block" id="btn1">Save</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="/bootstrap/4/js/popper.min.js"></script>
+	<script src="/bootstrap/4/js/bootstrap.min.js"></script>
+</body>
+
+</html>

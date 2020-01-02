@@ -1,0 +1,4 @@
+INSERT INTO `%PREFIX%parameters` (`parm_id`, `parm_group`, `parm_group_sub`, `parm_type`, `parm_name`, `parm_desc`, `parm_value`, `parm_notes`) VALUES('', 'enable', 'email', 'B', 'CONTACT_FORM_CC', 'Contact Form CC: Enable', '0', 'No: Do NOT send a CC of the messge entered on the "Contact us" form to the sender\r\nYes: DO send a CC of the messge entered on the "Contact us" form to the sender');
+INSERT INTO `%PREFIX%parameters` (`parm_id`, `parm_group`, `parm_group_sub`, `parm_type`, `parm_name`, `parm_desc`, `parm_value`, `parm_notes`) VALUES('', 'cronjobs', 'invoices', 'B', 'AUTOCOPY_UNPAID', 'Invoices: Auto-Recur Unpaid', '1', 'Yes: When it is time to auto-recur an invoice, copy it whether it is paid or not\r\nNo: Ony auto-recur an invoice if it was paid');
+UPDATE `%PREFIX%parameters` SET parm_value='1' WHERE parm_name='_PKG_EMAIL_OUT_ENABLE';
+UPDATE %PREFIX%versions SET v_ts=%TIMESTAMP%, v_ver='v1.6.2', v_type='Upgrade';

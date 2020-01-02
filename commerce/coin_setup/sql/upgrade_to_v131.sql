@@ -1,0 +1,3 @@
+DELETE FROM %PREFIX%parameters WHERE parm_name='_debug_queries';
+INSERT INTO %PREFIX%parameters (`parm_id`, `parm_group`, `parm_group_sub`, `parm_type`, `parm_name`, `parm_desc`, `parm_value`, `parm_notes`) VALUES ('', 'common', 'todo', 'I', 'IPP_TODO', 'Listing Items Per Page for: ToDo', '10', 'Determines the number of ToDo items that are displayed in listing form on a page.');
+UPDATE %PREFIX%versions SET v_ts=%TIMESTAMP%, v_ver='v1.3.1', v_type='Upgrade';

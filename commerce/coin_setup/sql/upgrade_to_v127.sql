@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS %PREFIX%todo (`todo_id` smallint(6) NOT NULL auto_increment, `todo_admin_id` smallint(6) default '0', `todo_title` varchar(255) default '0', `todo_text` text, `todo_duedate` varchar(15) default '0', `todo_entered` varchar(15) default '0', `todo_completed` tinyint(1) default '0', `todo_priority` int(2) default '1', PRIMARY KEY (`todo_id`)) TYPE=MyISAM;
+INSERT INTO %PREFIX%components (`comp_id`, `comp_type`, `comp_name`, `comp_mod`, `comp_desc`, `comp_ptitle`, `comp_col_num`, `comp_isadmin`, `comp_isuser`, `comp_status`) VALUES ('', 'module', 'ToDo', 'todo', 'ToDo List', 'ToDo List', 2, 1, 0, 1);
+ALTER table %PREFIX%invoices ADD column invc_last_nag_id int(11) NOT NULL default 0 after invc_recurr_proc;
+UPDATE %PREFIX%versions SET v_ts=%TIMESTAMP%, v_ver='v1.2.7', v_type='Upgrade';

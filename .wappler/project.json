@@ -1,0 +1,47 @@
+{
+  "projectName": "CMoN_Work_01",
+  "projectType": "web",
+  "targets": [
+    {
+      "dockerHost": "134.209.47.84",
+      "dockerPort": 2376,
+      "dockerUseTLS": true,
+      "dockerCertFolder": "~/.docker/machine/machines/cmonWorkVer01",
+      "webServerPort": 80,
+      "webServerLang": "PHP",
+      "PHPVersion": "7.3.x",
+      "databaseType": "mysql",
+      "databasePort": 9906,
+      "mySQLVersion": "8.0.x",
+      "mySQL_rootPassword": "l2F7J29g",
+      "mySQL_databaseName": "cmon_work_01",
+      "mySQL_username": "db_user",
+      "mySQL_password": "XqaNTCcJ",
+      "targetType": "docker",
+      "dockerType": "remote",
+      "webServer": "apache",
+      "remoteURL": "http://134.209.47.84",
+      "dockerMachineName": "cmonWorkVer01",
+      "name": "cmonWorkVer01"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "appConnect",
+      "type": "local"
+    },
+    {
+      "name": "jquery_slim_33",
+      "type": "local"
+    },
+    {
+      "name": "fontawesome_4",
+      "type": "local"
+    },
+    {
+      "name": "bootstrap4",
+      "type": "sketchy"
+    }
+  ],
+  "activeTarget": "cmonWorkVer01"
+}

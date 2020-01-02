@@ -1,0 +1,70 @@
+
+To install or upgrade phpCOIN, follow these steps:
+==================================================
+
+1: If you are installing phpCOIN for the first time, create an empty database
+   and user on your MySQL server. Remember the database name, username and
+   password ~ you will need them later.
+
+
+2: Download phpCOIN to your desktop and unzip it, making sure to maintain the
+   directory structure contained within the .zip file.
+
+
+3: Open "config.php" in your favourite text editor. Edit the settings for the
+   database name, username and password that you saved in step 1 above:
+
+	$_DBCFG['dbuname']   = "username";     // User
+	$_DBCFG['dbpass']    = "userpassword"; // Password
+	$_DBCFG['dbname']    = "databasename"; // Database Name
+
+	The table prefix parameter CAN be edited to change the prefix string
+	added to each table name, but normally should be left as 'phpcoin'.
+
+	The remaining items should NOT need further adjustment, but MAY need
+	adjustment depending on your server setup.
+
+   Make sure that your editor does NOT save an extra line feed at the end of the
+   file (make sure nothing comes after the final ?> in the file). Many times an
+   editor adds an extra line-feed to the file and this WILL cause issues with
+   php.
+
+   An alternative to editing config.php is to create an override file so that
+   future versions of phpCOIN will not overwrite your customizations.  For
+   details see:
+   http://docs.phpcoin.com/index.php/Prevent_upgrade_over-writing_your_customizations
+
+
+4: Upload all the files to your website, making sure to maintain the directory
+   structure:
+
+	Upload images in binary mode, and all other files in ascii mode.
+
+	The files can be uploaded to the root of your website, or into a
+	sub-directory ~ your choice.
+
+
+5: If you are upgrading from phpCOIN v1.4.2 or lower and you have any override
+   files, phpCOIN v1.4.3 and higher expects them to be in a different location.
+   See:
+   http://docs.phpcoin.com/index.php/Prevent_upgrade_over-writing_your_customizations
+
+6: Open your favorite web-browser and browse to your website (or to the
+   subdirectory on your website, depending on where you installed phpCOIN).
+   phpCOIN will realize that it is not yet installed, or that it is installed
+   but needs to upgrade the database, and it will AUTOMATICALLY redirect you to
+   the setup/upgrade page at http://YOURSITE/setup/setup.php
+
+   At the setup/upgrade screen you will be asked for your database password from
+   step 1 above. Follow the prompts on-screen, then phpCOIN is ready to use.
+
+   SECURITY NOTE: Because the setup files are no longer needed, a prudent
+   precaution would be to delete the /coin_setup folder and all contents.
+
+
+7: To run the automated processes (auto-invoice, auto-nag overdue, etc.), you
+   will need to setup cron-jobs ~ see http://docs.phpcoin.com/index.php/Cron
+
+
+8: See additional configuration and usage information at http://docs.phpCOIN.com
+   Ask a question not in the manual at http://forums.phpCOIN.com

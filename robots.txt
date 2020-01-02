@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+SITEMAP: cmontreats.com/sitemap.xml

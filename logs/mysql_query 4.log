@@ -1,0 +1,6 @@
+/usr/sbin/mysqld, Version: 8.0.18 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-01-02T20:51:50.564362Z	    7 Connect	
+2020-01-02T20:51:50.565192Z	    7 Query	SELECT @@skip_networking, @@skip_name_resolve, @@have_ssl='YES', @@ssl_key, @@ssl_ca, @@ssl_capath, @@ssl_cert, @@ssl_cipher, @@ssl_crl, @@ssl_crlpath, @@tls_version
+2020-01-02T20:51:50.568907Z	    7 Quit	

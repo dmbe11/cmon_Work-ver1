@@ -1,0 +1,261 @@
+===================================
+END-USER SOFTWARE LICENSE AGREEMENT
+===================================
+
+1. PRE-AMBLE:
+
+	1.1	This End-User License Agreement ("EULA") is a legal agreement between
+		you (either an individual or a business entity, referred to as "USER")
+		and COINSoft Technologies, Inc. ("COINSOFT") for phpCOIN, which
+		includes computer software and may include associated media, printed
+		materials, and "online" or electronic documentation ("THE SOFTWARE").
+
+	1.2	YOU AGREE TO BE BOUND BY THE TERMS OF THIS EULA BY INSTALLING OR USING
+		THE SOFTWARE.  IF YOU DO NOT AGREE, THEN DO NOT INSTALL OR USE THE
+		SOFTWARE.
+
+
+2. GENERAL:
+
+	2.1	COINSOFT provides THE SOFTWARE as part of its operations, and licenses
+		its use by USER.
+
+		2.1.1	COINSOFT retains ownership of all rights in THE SOFTWARE and
+				of all proprietary technology embodied therein.
+
+		2.1.2	USER is not receiving title to THE SOFTWARE but rather is
+				being granted only a license to use THE SOFTWARE in
+				accordance with the terms and conditions of this EULA.
+
+		2.1.3	All rights not specifically granted to USER herein are
+				reserved to COINSOFT.
+
+	2.2	THE SOFTWARE may contain or utilize third-party software subject to a
+		seperate license.  If the third-party software is included with THE
+		SOFTWARE, the relevant license documentation is provided with such
+		software and USER is bound by the terms of such license as it relates
+		to that portion of THE SOFTWARE.
+
+	2.3	Each operational database containing unique data maintained by THE
+		SOFTWARE is an installation ("INSTALLATION"):
+
+		2.3.1	If USER has more than one domain or web-site but all of them
+				share a single database, all the domains or web-sites
+				combined are considered to be a single INSTALLATION.
+
+		2.3.2	If USER has more than one domain or web-site and they do not
+				share a single database, then each domain or web-site that
+				is not sharing a database is considered to be a seperate
+				INSTALLATION.
+
+		2.3.3	A backup copy of a database, no matter how it was made, is
+				not considered as an INSTALLATION.
+
+		2.3.4	A load-balanced database runing on two or more servers is
+				considered to be a single INSTALLATION if the content of the
+				database is intended to be identical on each server.
+
+	2.4	USER acknowledges that the unauthorized distribution or use of THE
+		SOFTWARE will cause Material Damage to COINSOFT.
+
+	2.5	USER assumes responsibility for the selection of software to achieve
+		intended results, and for the installation, use, and results obtained
+		from THE SOFTWARE.
+
+
+3. WARRANTY:
+
+	3.1	COINSOFT DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS OR IMPLIED, WRITTEN
+		OR ORAL, WITH RESPECT TO THE SOFTWARE AND ANY DOCUMENTATION, INCLUDING
+		ALL WARRANTIES OF TITLE AND IMPLIED WARRANTIES OF MERCHANTABILITY AND
+		FITNESS FOR A PARTICULAR PURPOSE.
+
+	3.2	COINSOFT TECHNOLOGIES INC.'S LIABILITY FOR DAMAGES TO USER FOR ANY
+		CAUSE WHATSOEVER, REGARDLESS OF THE FORM OF ANY CLAIM OR ACTION,
+		SHALL NOT EXCEED THE TOTAL LICENSE FEE PAID BY USER FOR THE LICENSE TO
+		USE THE SOFTWARE UNDER THIS AGREEMENT.
+
+	3.3	COINSOFT TECHNOLOGIES INC. SHALL IN NO EVENT BE LIABLE FOR ANY DAMAGES
+		RESULTING FROM LOSS OF DATA, PROFITS OR USE OF EQUIPMENT, OR FOR ANY
+		SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN
+		CONNECTION WITH THE USE OR PERFORMANCE OF THE SOFTWARE.
+
+
+4. USAGE RIGHTS AND LIMITATIONS:
+
+	4.1	Based solely on USER's acceptance in whole of this EULA, the following
+		non-exclusive rights have been granted to USER when using THE SOFTWARE:
+
+		4.1.1	Payment of a fee to use THE SOFTWARE is not required.
+				Donations to COINSOFT to help offset development and support
+				costs are appreciated, but not required.
+
+		4.1.2	USER may install and run THE SOFTWARE as intended, which is
+				to say, one licensed copy of THE SOFTWARE is to be used for
+				each INSTALLATION.
+
+		4.1.3	USER may alter any of the source-code provided for THE
+				SOFTWARE as desired for USER's own use only, and subject to
+				any limitations specified elsewhere in this EULA.
+
+		4.1.4	The phpCOIN logo that is visible when THE SOFTWARE is first
+				installed is for display purposes only.  USER is expected
+				and encouraged to utilize USER's own logo on all web-sites
+				and in all communications.
+
+	4.2	Based solely on USER's acceptance in whole of this EULA, the following
+		restrictions are in effect when using THE SOFTWARE:
+
+		4.2.1	USER may not, in any manner, convey to others that the
+				author of THE SOFTWARE is anyone other than Mike Lansberry
+				if THE SOFTWARE is version 1.2.0 or lower, or COINSOFT if
+				THE SOFTWARE is version 1.2.1 or higher.
+
+			4.2.1.1	USER may not under any circumstances edit or remove the
+					credit or copyright text in any file.
+
+			4.2.1.2	USER may not edit the code to modify or remove the
+					'<meta name="generator" content="phpcoin">' html output
+					from THE SOFTWARE.
+
+			4.2.1.3	USER may not edit the code to remove the "Powered By
+					phpCOIN" line ("FOOTER LINE") from the final html
+					output, or to make FOOTER LINE difficult for a human to
+					easily see, unless USER is the holder of a valid
+					license to do so purchased from COINSOFT:
+
+				4.2.1.3.1	Each license to remove FOOTER LINE is valid for
+						one INSTALLATION only.
+
+				4.2.1.3.2	Whether USER has a valid license to remove FOOTER
+						LINE or not, the wording of FOOTER LINE may not be
+						altered.
+
+		4.2.2	USER may not use portions of THE SOFTWARE code for the
+				purpose of creating standalone scripts or alternatives to
+				THE SOFTWARE.
+
+		4.2.3	USER must leave this EULA with THE SOFTWARE, in the
+				designated location, to permit license verification.
+
+
+5. DEVELOPERS AND SERVICE PROVIDERS RIGHTS AND LIMITATIONS:
+
+	5.1	USER may create additional functionality in the form of modules,
+		themes, translations, etc.:
+
+		5.1.1	USER may distribute USER's work in whatever manner and under
+				whatever terms USER sees fit.
+
+		5.1.2	USER may obtain compensation for USER's work, if USER wishes.
+
+		5.1.3	USER is expected to add his/her contact information to the
+				headers of any files provided by USER.
+
+		5.1.4	If USER provides themes for THE SOFTWARE, USER may display
+				USER's own "Theme by" or "Designed by" text and/or link,
+				provided that the text or link specifies that it applies to
+				USER's theme and does not cause confusion about applying to
+				THE SOFTWARE itself.
+
+		5.1.5	If USER provides add-on modules for THE SOFTWARE, USER may
+				display USER's own "Created by" or "Copyright" text and/or
+				link, provided that the text or link specifies that it
+				applies to USER's add-on and does not cause confusion about
+				applying to THE SOFTWARE itself.
+
+		5.1.6	If USER's provides translation files for THE SOFTWARE, USER
+				may display USER's own "Translation by" text and/or link,
+				provided that the text or link specifies that it applies to
+				USER's translation and does not cause confusion about
+				applying to THE SOFTWARE itself.
+
+		5.1.7	There is no requirement to obtain permission from COINSOFT,
+				and no fee payable to COINSOFT, for provision of USER's
+				additional functionality.
+
+	5.2	USER may obtain financial compensation for provision of USER's
+		services relating to installation, customization, non-authorized
+		support, or hosting services related to THE SOFTWARE.
+
+		5.2.1	If USER creates installation/upgrade functionality for THE
+				SOFTWARE that is alternate to the built-in installation/
+				upgrade functionality, then USER must ensure that during
+				the installation/upgrade process the contents of this EULA
+				are viewable by the person doing the install or upgrade, and
+				that person has specifically accepted this EULA.
+
+		5.2.2	USER may not advertise that USER provides AUTHORIZED support
+				services for THE SOFTWARE unless USER has successfully
+				completed any training program(s) offered by COINSOFT and
+				USER is then-currently recognized by COINSOFT as an
+				"Authorized Support Agent".  Pending setup and operation of
+				the "Authorized Support Agent Training Program", COINSOFT
+				may elect to waive training requirements, but USER still may
+				not advertise that USER provides AUTHORIZED support services
+				without the expressed written consent of COINSOFT.
+
+		5.2.3	There is no requirement to obtain permission from COINSOFT,
+				and no fee payable to COINSOFT, for provision of these
+				services, but USER's services are subject to all rights and
+				limitations specified in this EULA.
+
+	5.3	If USER provides a service or additional module for which USER is
+		receiving compensation, USER must clearly indicate to USER's customer
+		that USER is providing THE SOFTWARE itself without charge.
+
+	5.4	USER may NOT redistribute THE SOFTWARE itself, in any form, for a fee
+		or financial compensation of any kind other than as noted in this
+		section, without the expressed written consent of COINSOFT.
+
+
+6. TRANSFER OF LICENSE:
+
+	6.1	USER may not assign or transfer USER's rights or obligations under
+		this EULA, except that USER may assign the EULA to a successor to
+		USER's business that results from a sale of substantially all of
+		USER's assets, merger, or similar transaction, provided that the
+		assignee agrees in writing to be bound by this EULA and provided that
+		USER transfers all copies of THE SOFTWARE and related documentation to
+		the third party or destroys any copies not transferred.
+
+	6.2	COINSOFT may assign or novate this EULA freely without notice to USER.
+
+
+7. TERM:
+
+	7.1	This license is effective until terminated.
+
+	7.2	USER may terminate this license at any time by destroying THE SOFTWARE
+		along with any copies, modifications and merged portions in any form.
+
+	7.3	The license will also terminate if USER fails to comply with any term
+		or condition of this license.  USER agrees upon such termination to
+		destroy THE SOFTWARE together with all copies, modifications and
+		merged portions in any form, and further agree that any and all fees
+		paid to CONSOFT in relation to THE SOFTWARE are considered liquidated
+		damages and are non-refundable.
+
+
+8. ENTIRE AGREEMENT:
+
+	8.1	This License is the entire agreement between USER and COINSOFT and
+		supersedes any prior agreement or understanding relating to the
+		subject matter of this license.
+
+
+9. GOVERNING LAW:
+
+	9.1	This license shall be governed by the laws of Nova Scotia, Canada
+		and is subject to the exclusive jurisdiction of Nova Scotia courts.
+
+	9.2	COINSOFT reserves the right, but not the obligation, to pursue legal
+		action for violation of the license in any court, in any country
+		whatsoever.
+
+
+10. RESTRICTED RIGHTS LEGEND:
+
+	10.1	Use, duplication, or disclosure by the US Government is subject to
+		restrictions as set forth in subparagraph (c)(I)(ii) of the Rights
+		in Technical Data and Computer Software clause at DFARS 252.227-70

@@ -1,0 +1,250 @@
+body				{ background-color: #FFFFFF; margin: 5px }
+p					{ color: #001; font-family: Verdana, Arial, Helvetica, Geneva }
+a				{ }
+a:link			{ color: blue }
+a:visited			{ color: red }
+a:hover			{ color: blue; text-decoration: underline }
+a:active			{ color: red }
+.button075			{ color: black; font-weight: bold; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-image: url(images/nav/cl_spacer.gif); background-color: #FFFFFF; padding: 2pt; border: solid 1pt black; width: 75px }
+.button				{ color: black; font-weight: bold; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-image: url(images/nav/cl_spacer.gif); background-color: #FFFFFF; padding: 2pt; border: solid 1pt black }
+.button_form		{ color: blue; font-weight: bold; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-image: url(images/nav/cl_spacer.gif); background-color: #FFFFFF; padding: 2pt; border: solid 1pt black }
+.button_form_h		{ color: blue; font-weight: bold; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF; padding: 2pt; border: solid 1pt black }
+.button_form_s		{ color: blue; font-weight: bold; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-image: url(images/nav/cl_spacer.gif); background-color: #FFFFFF; padding: 1pt; border: solid 1pt black }
+.button_form_s_h	{ color: blue; font-weight: bold; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF; padding: 1pt; border: solid 1pt black }
+.button_mblock		{ color: blue; font-weight: bold; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #EBEBEB; padding: 2pt; border: solid 0pt black }
+.button_mblock_h	{ color: blue; font-weight: bold; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF; padding: 2pt; border: solid 0pt black }
+.button_mblock_img	{ color: blue; font-weight: bold; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-image: url(images/nav/cl_spacer.gif); background-color: #FFFFFF; padding: 2pt; border: solid 0pt black }
+.select_form		{ color: blue; font-weight: bold; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #EBEBEB; padding: 0pt; border: solid 1pt black }
+.box				{ padding: 2pt; border: solid 1pt black }
+.notes				{ color: black; font-style: normal; font-weight: normal; text-align: left; font-size: 9px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 2pt; width: 300 }
+.outer				{ width: 100%; cellpadding: 0; cellspacing: 0; border: 0  }
+.inner				{ width: 100%; cellpadding: 5; cellspacing: 1; border: 0  }
+tr					{ font-weight: normal; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+td					{ font-weight: normal; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.black				{ font-family: Verdana, Arial, Helvetica, Geneva; background-color: #000000 }
+.BLK_DEF_TITLE		{ color: #001; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF }
+.BLK_DEF_ENTRY		{ color: #001; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF }
+.BLK_DEF_FMENU		{ color: #001; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF }
+.GRN_DEF_ENTRY		{ color: #336699; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF }
+.BLK_HDR_TCLEAR		{ color: #001; font-family: Verdana, Arial, Helvetica, Geneva; }
+.BLK_HDR_TCLEAR_L	{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 18px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px; height: 30px }
+.BLK_HDR_TCLEAR_C	{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 18px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px; height: 30px }
+.BLK_HDR_TCLEAR_R	{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 18px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px; height: 30px }
+.BLK_HDR_TITLE		{ color: #001; font-family: Verdana, Arial, Helvetica, Geneva }
+.BLK_HDR_TITLE_L	{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 18px; font-family: Verdana, Arial, Helvetica, Geneva }
+.BLK_HDR_TITLE_C	{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 18px; font-family: Verdana, Arial, Helvetica, Geneva }
+.BLK_HDR_TITLE_R	{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 18px; font-family: Verdana, Arial, Helvetica, Geneva }
+.BLK_HDR_MCLEAR		{ color: #001; font-family: Verdana, Arial, Helvetica, Geneva; }
+.BLK_HDR_MCLEAR_L	{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px; height: 30px }
+.BLK_HDR_MCLEAR_C	{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px; height: 30px }
+.BLK_HDR_MCLEAR_R	{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px; height: 30px }
+.BLK_HDR_MENU		{ color: #001; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF }
+.BLK_HDR_MENU_L		{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF; padding: 5px }
+.BLK_HDR_MENU_C		{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF; padding: 5px }
+.BLK_HDR_MENU_R		{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF; padding: 5px }
+.BLK_MENU_TITLE		{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF; padding: 5px; height: 25px }
+.BLK_MENU_ENTRY		{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF; padding: 5px }
+.BLK_IT_TITLE		{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF; padding: 5px; height: 25px }
+.BLK_IT_TITLE_TXT	{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 2px }
+.BLK_IT_ENTRY		{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF; padding: 5px }
+.BLK_IT_FMENU		{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF; padding: 5px }
+.BLK_IT_FMENU_TXT	{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 2px }
+.BLK_FTR			{ color: #001; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF }
+.BLK_FTR_L			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF; padding: 5px; height: 30px }
+.BLK_FTR_C			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF; padding: 5px; height: 30px }
+.BLK_FTR_R			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; background-color: #FFFFFF; padding: 5px; height: 30px }
+.BLK_FTR_CLEAR		{ color: #001; font-family: Verdana, Arial, Helvetica, Geneva; }
+.BLK_FTR_CLEAR_L	{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px; height: 30px }
+.BLK_FTR_CLEAR_C	{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px; height: 30px }
+.BLK_FTR_CLEAR_R	{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px; height: 30px }
+.TP0SML_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0SML_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0SML_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0SML_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP1SML_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1SML_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1SML_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1SML_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP3SML_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3SML_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3SML_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3SML_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP5SML_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5SML_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5SML_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5SML_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP0SML_NL			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0SML_NC			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0SML_NR			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0SML_NJ			{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP1SML_NL			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1SML_NC			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1SML_NR			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1SML_NJ			{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP3SML_NL			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3SML_NC			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3SML_NR			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3SML_NJ			{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP5SML_NL			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5SML_NC			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5SML_NR			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5SML_NJ			{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP0MED_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0MED_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0MED_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0MED_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP1MED_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1MED_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1MED_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1MED_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP3MED_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3MED_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3MED_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3MED_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP5MED_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5MED_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5MED_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5MED_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP0MED_NL			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0MED_NC			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0MED_NR			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0MED_NJ			{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP1MED_NL			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1MED_NC			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1MED_NR			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1MED_NJ			{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP3MED_NL			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3MED_NC			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3MED_NR			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3MED_NJ			{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP5MED_NL			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5MED_NC			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5MED_NR			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5MED_NJ			{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP0BIG_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0BIG_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0BIG_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0BIG_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP1BIG_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1BIG_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1BIG_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1BIG_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP3BIG_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3BIG_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3BIG_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3BIG_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP5BIG_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5BIG_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5BIG_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5BIG_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP0BIG_NL			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0BIG_NC			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0BIG_NR			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0BIG_NJ			{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP3BIG_NL			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3BIG_NC			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3BIG_NR			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3BIG_NJ			{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP5BIG_NL			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5BIG_NC			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5BIG_NR			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5BIG_NJ			{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP0LRG_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0LRG_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0LRG_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0LRG_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP1LRG_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1LRG_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1LRG_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1LRG_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP3LRG_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3LRG_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3LRG_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3LRG_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP5LRG_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5LRG_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5LRG_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5LRG_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP0LRG_NL			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0LRG_NC			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0LRG_NR			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP0LRG_NJ			{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 0px }
+.TP1LRG_NL			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1LRG_NC			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1LRG_NR			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP1LRG_NJ			{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 1px }
+.TP3LRG_NL			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3LRG_NC			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3LRG_NR			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP3LRG_NJ			{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 3px }
+.TP5LRG_NL			{ color: #001; font-style: normal; font-weight: normal; text-align: left; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5LRG_NC			{ color: #001; font-style: normal; font-weight: normal; text-align: center; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5LRG_NR			{ color: #001; font-style: normal; font-weight: normal; text-align: right; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.TP5LRG_NJ			{ color: #001; font-style: normal; font-weight: normal; text-align: justify; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva; padding: 5px }
+.PSR				{ color: RED; font-style: italic; font-weight: bold; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PSML_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PSML_BL_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PSML_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PSML_BC_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PSML_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PSML_BR_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PSML_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PSML_BJ_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PSML_NL			{ color: #001; font-style: normal; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PSML_NL_ID			{ color: #001; font-style: normal; text-align: left; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PSML_NC			{ color: #001; font-style: normal; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PSML_NC_ID			{ color: #001; font-style: normal; text-align: center; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PSML_NR			{ color: #001; font-style: normal; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PSML_NR_ID			{ color: #001; font-style: normal; text-align: right; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PSML_NJ			{ color: #001; font-style: normal; text-align: justify; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PSML_NJ_ID			{ color: #001; font-style: normal; text-align: justify; font-size: 10px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PMED_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PMED_BL_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PMED_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PMED_BC_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PMED_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PMED_BR_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PMED_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PMED_BJ_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PMED_NL			{ color: #001; font-style: normal; text-align: left; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PMED_NL_ID			{ color: #001; font-style: normal; text-align: left; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PMED_NC			{ color: #001; font-style: normal; text-align: center; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PMED_NC_ID			{ color: #001; font-style: normal; text-align: center; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PMED_NR			{ color: #001; font-style: normal; text-align: right; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PMED_NR_ID			{ color: #001; font-style: normal; text-align: right; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PMED_NJ			{ color: #001; font-style: normal; text-align: justify; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PMED_NJ_ID			{ color: #001; font-style: normal; text-align: justify; font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PBIG_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PBIG_BL_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PBIG_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PBIG_BC_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PBIG_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PBIG_BR_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PBIG_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PBIG_BJ_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PBIG_NL			{ color: #001; font-style: normal; text-align: left; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PBIG_NL_ID			{ color: #001; font-style: normal; text-align: left; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PBIG_NC			{ color: #001; font-style: normal; text-align: center; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PBIG_NC_ID			{ color: #001; font-style: normal; text-align: center; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PBIG_NR			{ color: #001; font-style: normal; text-align: right; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PBIG_NR_ID			{ color: #001; font-style: normal; text-align: right; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PBIG_NJ			{ color: #001; font-style: normal; text-align: justify; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PBIG_NJ_ID			{ color: #001; font-style: normal; text-align: justify; font-size: 14px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PLRG_BL			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PLRG_BL_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: left; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PLRG_BC			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PLRG_BC_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: center; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PLRG_BR			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PLRG_BR_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: right; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PLRG_BJ			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PLRG_BJ_ID			{ color: #001; font-style: normal; font-weight: bold; text-align: justify; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PLRG_NL			{ color: #001; font-style: normal; text-align: left; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PLRG_NL_ID			{ color: #001; font-style: normal; text-align: left; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PLRG_NC			{ color: #001; font-style: normal; text-align: center; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PLRG_NC_ID			{ color: #001; font-style: normal; text-align: center; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PLRG_NR			{ color: #001; font-style: normal; text-align: right; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PLRG_NR_ID			{ color: #001; font-style: normal; text-align: right; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+.PLRG_NJ			{ color: #001; font-style: normal; text-align: justify; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList }
+.PLRG_NJ_ID			{ color: #001; font-style: normal; text-align: justify; font-size: 16px; font-family: Verdana, Arial, Helvetica, Geneva, NumList; text-indent: 5px }
+label	{width: 150px; padding: 0px; padding-right: 10px; font-weight: normal; text-align: right; margin: 0px; margin-bottom: 5px; float: left; display: block;}
+br		{clear: both;}
