@@ -23,10 +23,9 @@
 				</h1>
 				<dl>
 					<dt class="font-weight-bold text-uppercase">ID
-					<dd dmx-text="query.cus">
-						{{query.cus}}
+					<dd dmx-text="query.cus">{{serverconnect1.data.api1.data.id}}
 					<dt class="font-weight-bold">Creation Date
-					<dd dmx-text="serverconnect1.data.api1.data.created">{{serverconnect1.data.api1.data.description}}
+					<dd dmx-text="query.cus">Creation Date
 					<dt class=" font-weight-bold">Email
 					<dd dmx-text="serverconnect1.data.api1.data.email">{{serverconnect1.data.api1.data.email}}</dd>
 					</dt>

@@ -1238,5 +1238,91 @@ dmx.config({
       ],
       "outputType": "object"
     }
+  },
+  "md1": {
+    "query": [
+      {
+        "type": "text",
+        "name": "carid"
+      }
+    ]
+  },
+  "masterPractice": {
+    "query": [
+      {
+        "type": "text",
+        "name": "id"
+      }
+    ]
+  },
+  "masterPage": {
+    "tableRepeat1": {
+      "meta": [
+        {
+          "name": "$index",
+          "type": "number"
+        },
+        {
+          "name": "$key",
+          "type": "text"
+        },
+        {
+          "name": "$value",
+          "type": "object"
+        },
+        {
+          "name": "id",
+          "type": "number"
+        },
+        {
+          "name": "make",
+          "type": "text"
+        },
+        {
+          "name": "model",
+          "type": "text"
+        },
+        {
+          "name": "year",
+          "type": "text"
+        }
+      ],
+      "outputType": "array"
+    }
+  },
+  "master": {
+    "tableRepeat1": {
+      "meta": [
+        {
+          "name": "$index",
+          "type": "number"
+        },
+        {
+          "name": "$key",
+          "type": "text"
+        },
+        {
+          "name": "$value",
+          "type": "object"
+        },
+        {
+          "name": "id",
+          "type": "number"
+        },
+        {
+          "name": "make",
+          "type": "text"
+        }
+      ],
+      "outputType": "array"
+    }
+  },
+  "detail1": {
+    "query": [
+      {
+        "type": "text",
+        "name": "filter"
+      }
+    ]
   }
 });
